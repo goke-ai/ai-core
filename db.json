@@ -7,416 +7,290 @@
             {
                 "id": 1,
                 "name": "Alice Johnson",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "subjects": {
+                    "MATH101": {
                         "grade": "A"
                     },
-                    {
-                        "code": "SCI201",
+                    "SCI201": {
                         "grade": "A"
                     },
-                    {
-                        "code": "HIST301",
+                    "HIST301": {
                         "grade": "B"
                     },
-                    {
-                        "code": "ENG401",
+                    "ENG401": {
                         "grade": "A"
                     },
-                    {
-                        "code": "ART501",
+                    "ART501": {
                         "grade": "B"
                     },
-                    {
-                        "code": "PE601",
+                    "PE601": {
                         "grade": "A"
                     },
-                    {
-                        "code": "MUS701",
+                    "MUS701": {
                         "grade": "A"
                     },
-                    {
-                        "code": "GEO801",
+                    "GEO801": {
                         "grade": "B"
                     },
-                    {
-                        "code": "DRAM901",
+                    "DRAM901": {
                         "grade": "A"
                     },
-                    {
-                        "code": "COMP1001",
+                    "COMP1001": {
                         "grade": "A"
                     }
-                ]
+                }
             },
             {
                 "id": 2,
                 "name": "Bob Smith",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "subjects": {
+                    "MATH101": {
                         "grade": "B"
                     },
-                    {
-                        "code": "SCI201",
+                    "SCI201": {
                         "grade": "C"
                     },
-                    {
-                        "code": "HIST301",
+                    "HIST301": {
+                        "grade": "A"
+                    },
+                    "ENG401": {
                         "grade": "B"
                     },
-                    {
-                        "code": "ENG401",
+                    "ART501": {
+                        "grade": "A"
+                    },
+                    "PE601": {
                         "grade": "B"
                     },
-                    {
-                        "code": "ART501",
+                    "MUS701": {
+                        "grade": "A"
+                    },
+                    "GEO801": {
                         "grade": "C"
                     },
-                    {
-                        "code": "PE601",
+                    "DRAM901": {
                         "grade": "B"
                     },
-                    {
-                        "code": "MUS701",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "GEO801",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "DRAM901",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "B"
+                    "COMP1001": {
+                        "grade": "A"
                     }
-                ]
+                }
             },
             {
                 "id": 3,
-                "name": "Charlie Brown",
-                "subjects": [
-                    {
-                        "code": "MATH101",
-                        "grade": "C"
+                "name": "Charlie Davis",
+                "subjects": {
+                    "MATH101": {
+                        "grade": "A"
                     },
-                    {
-                        "code": "SCI201",
+                    "SCI201": {
+                        "grade": "A"
+                    },
+                    "HIST301": {
                         "grade": "B"
                     },
-                    {
-                        "code": "HIST301",
+                    "ENG401": {
                         "grade": "C"
                     },
-                    {
-                        "code": "ENG401",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "ART501",
+                    "ART501": {
                         "grade": "B"
                     },
-                    {
-                        "code": "PE601",
-                        "grade": "C"
+                    "PE601": {
+                        "grade": "A"
                     },
-                    {
-                        "code": "MUS701",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "GEO801",
+                    "MUS701": {
                         "grade": "B"
                     },
-                    {
-                        "code": "DRAM901",
-                        "grade": "C"
+                    "GEO801": {
+                        "grade": "A"
                     },
-                    {
-                        "code": "COMP1001",
-                        "grade": "C"
+                    "DRAM901": {
+                        "grade": "A"
+                    },
+                    "COMP1001": {
+                        "grade": "B"
                     }
-                ]
+                }
             },
             {
                 "id": 4,
-                "name": "Daisy Ridley",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "name": "Diana Evans",
+                "subjects": {
+                    "MATH101": {
+                        "grade": "B"
+                    },
+                    "SCI201": {
+                        "grade": "B"
+                    },
+                    "HIST301": {
                         "grade": "A"
                     },
-                    {
-                        "code": "SCI201",
+                    "ENG401": {
                         "grade": "A"
                     },
-                    {
-                        "code": "HIST301",
+                    "ART501": {
+                        "grade": "C"
+                    },
+                    "PE601": {
+                        "grade": "B"
+                    },
+                    "MUS701": {
+                        "grade": "C"
+                    },
+                    "GEO801": {
+                        "grade": "B"
+                    },
+                    "DRAM901": {
                         "grade": "A"
                     },
-                    {
-                        "code": "ENG401",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "ART501",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "PE601",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "MUS701",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "GEO801",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "DRAM901",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "A"
+                    "COMP1001": {
+                        "grade": "B"
                     }
-                ]
+                }
             },
             {
                 "id": 5,
-                "name": "Evan Wright",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "name": "Ethan Ford",
+                "subjects": {
+                    "MATH101": {
+                        "grade": "C"
+                    },
+                    "SCI201": {
+                        "grade": "A"
+                    },
+                    "HIST301": {
+                        "grade": "C"
+                    },
+                    "ENG401": {
                         "grade": "B"
                     },
-                    {
-                        "code": "SCI201",
+                    "ART501": {
+                        "grade": "A"
+                    },
+                    "PE601": {
+                        "grade": "C"
+                    },
+                    "MUS701": {
                         "grade": "B"
                     },
-                    {
-                        "code": "HIST301",
+                    "GEO801": {
+                        "grade": "A"
+                    },
+                    "DRAM901": {
                         "grade": "B"
                     },
-                    {
-                        "code": "ENG401",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "ART501",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "PE601",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "MUS701",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "GEO801",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "DRAM901",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "B"
+                    "COMP1001": {
+                        "grade": "A"
                     }
-                ]
+                }
             },
             {
                 "id": 6,
-                "name": "Fiona Gallagher",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "name": "Fiona Green",
+                "subjects": {
+                    "MATH101": {
+                        "grade": "A"
+                    },
+                    "SCI201": {
+                        "grade": "B"
+                    },
+                    "HIST301": {
+                        "grade": "B"
+                    },
+                    "ENG401": {
                         "grade": "C"
                     },
-                    {
-                        "code": "SCI201",
+                    "ART501": {
+                        "grade": "B"
+                    },
+                    "PE601": {
+                        "grade": "A"
+                    },
+                    "MUS701": {
+                        "grade": "A"
+                    },
+                    "GEO801": {
                         "grade": "C"
                     },
-                    {
-                        "code": "HIST301",
-                        "grade": "C"
+                    "DRAM901": {
+                        "grade": "B"
                     },
-                    {
-                        "code": "ENG401",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "ART501",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "PE601",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "MUS701",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "GEO801",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "DRAM901",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "C"
+                    "COMP1001": {
+                        "grade": "B"
                     }
-                ]
+                }
             },
             {
                 "id": 7,
-                "name": "George King",
-                "subjects": [
-                    {
-                        "code": "MATH101",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "SCI201",
+                "name": "George Hill",
+                "subjects": {
+                    "MATH101": {
                         "grade": "B"
                     },
-                    {
-                        "code": "HIST301",
+                    "SCI201": {
+                        "grade": "C"
+                    },
+                    "HIST301": {
                         "grade": "A"
                     },
-                    {
-                        "code": "ENG401",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "ART501",
+                    "ENG401": {
                         "grade": "A"
                     },
-                    {
-                        "code": "PE601",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "MUS701",
+                    "ART501": {
                         "grade": "A"
                     },
-                    {
-                        "code": "GEO801",
+                    "PE601": {
                         "grade": "B"
                     },
-                    {
-                        "code": "DRAM901",
+                    "MUS701": {
+                        "grade": "C"
+                    },
+                    "GEO801": {
+                        "grade": "B"
+                    },
+                    "DRAM901": {
+                        "grade": "C"
+                    },
+                    "COMP1001": {
                         "grade": "A"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "B"
                     }
-                ]
+                }
             },
             {
                 "id": 8,
-                "name": "Hannah Abbott",
-                "subjects": [
-                    {
-                        "code": "MATH101",
+                "name": "Hannah Irvine",
+                "subjects": {
+                    "MATH101": {
+                        "grade": "C"
+                    },
+                    "SCI201": {
+                        "grade": "C"
+                    },
+                    "HIST301": {
                         "grade": "B"
                     },
-                    {
-                        "code": "SCI201",
-                        "grade": "A"
-                    },
-                    {
-                        "code": "HIST301",
+                    "ENG401": {
                         "grade": "B"
                     },
-                    {
-                        "code": "ENG401",
+                    "ART501": {
                         "grade": "A"
                     },
-                    {
-                        "code": "ART501",
+                    "PE601": {
+                        "grade": "A"
+                    },
+                    "MUS701": {
                         "grade": "B"
                     },
-                    {
-                        "code": "PE601",
+                    "GEO801": {
                         "grade": "A"
                     },
-                    {
-                        "code": "MUS701",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "GEO801",
+                    "DRAM901": {
                         "grade": "A"
                     },
-                    {
-                        "code": "DRAM901",
-                        "grade": "B"
-                    },
-                    {
-                        "code": "COMP1001",
-                        "grade": "A"
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "name": "Ian Holm",
-                "subjects": [
-                    {
-                        "code": "MATH101",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "SCI201",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "HIST301",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "ENG401",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "ART501",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "PE601",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "MUS701",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "GEO801",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "DRAM901",
-                        "grade": "C"
-                    },
-                    {
-                        "code": "COMP1001",
+                    "COMP1001": {
                         "grade": "C"
                     }
-                ]
+                }
             }
         ],
         "subjects": [
